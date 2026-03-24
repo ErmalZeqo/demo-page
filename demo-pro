@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Portfolio</title>
+  <meta name="description" content="Portfolio personnel" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">Ermal ZEQO<span>.</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#formation">Formation</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="tag">Portfolio personnel</div>
+          <h1>Salut, moi c'est <span class="gradient">Ermal ZEQO</span></h1>
+          <p>
+            Je suis étudiant en troisième année de licence d’informatique à Sorbonne Université (ex-UPMC). Cette page présente les projets que j’ai réalisés au cours de mon parcours académique.
+          </p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#projects">Voir mes projets</a>
+	    <a class="btn btn-secondary btn-github" href="https://github.com/tonpseudo" target="_blank">Mon GitHub</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <img class="hero-card" src="im/me.jpg">
+        </div>
+      </div>
+    </section>
+
+    <section id="formation">
+  <div class="container">
+    <h2 class="section-title">Formation</h2>
+    <p class="section-text">
+      Mon parcours académique, du baccalauréat à ma licence d’informatique.
+    </p>
+
+    <div class="formation-list">
+
+      <article class="formation-item">
+        <div class="formation-date">Depuis 2023</div>
+        <div class="formation-content">
+          <h3>Sorbonne Université</h3>
+          <p class="formation-location">Paris, France</p>
+          <p><strong>Licence d’informatique</strong></p>
+          <p>L1 Portail Sciences formelles</p>
+          <p>L2 &amp; L3 Parcours mono-disciplinaire</p>
+        </div>
+      </article>
+
+      <article class="formation-item">
+        <div class="formation-date">2023</div>
+        <div class="formation-content">
+          <h3>École Hermann Gmeiner</h3>
+          <p class="formation-location">Tirana, Albanie</p>
+          <p><strong>Baccalauréat technologique</strong></p>
+          <p>Mention Très Bien</p>
+          <p>Spécialisation : Génie logiciel informatique</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+	<section id="certifications">
+  <div class="container">
+    <h2 class="section-title">Certifications</h2>
+    <p class="section-text">
+      Quelques certifications obtenues ou suivies dans le domaine de la cybersécurité.
+    </p>
+
+    <div class="certifications-list">
+
+      <article class="certification-item">
+        <div class="certification-logo">
+          <img src="im/ANSSI_Logo.png" alt="Logo ANSSI">
+        </div>
+
+        <div class="certification-content">
+          <div class="certification-header">
+            <div>
+              <h3>MOOC – SecNumacadémie (ANSSI)</h3>
+              <p class="certification-meta">2026 · En ligne</p>
+            </div>
+          </div>
+
+          <ul>
+            <li>Bases de la cybersécurité et hygiène numérique</li>
+            <li>Culture sécurité : prévention, risques, comportements sûrs au quotidien</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="certification-item">
+        <div class="certification-logo">
+          <img src="im/tryhackme-logo.jpg" alt="Logo TryHackMe">
+        </div>
+
+        <div class="certification-content">
+          <div class="certification-header">
+            <div>
+              <h3>Certificat – Pre Security (TryHackMe)</h3>
+              <p class="certification-meta">2025 · En ligne</p>
+            </div>
+          </div>
+
+          <ul>
+            <li>Notions de base en cybersécurité</li>
+            <li>Principes de base et vulnérabilités des réseaux</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Compétences</h2>
+        <p class="section-text">
+          Voici quelques technologies et qualités que je mets en avant dans mes projets.
+        </p>
+        <div class="grid-3">
+          <article class="card">
+            <h3>Developpment Web</h3>
+            <p>HTML/CSS, PHP, JavaScript,</p>
+          </article>
+          <article class="card">
+            <h3>Object Oriented</h3>
+            <p>C#, Java</p>
+          </article>
+          <article class="card">
+            <h3>Elément de programmation</h3>
+            <p>Python, C, C++</p>
+          </article>
+          <article class="card">
+            <h3>Gestion de base de données</h3>
+            <p>SQL, Oracle, MySQL, Pl/SQL</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Projets</h2>
+        <p class="section-text">
+          Remplace ces exemples par tes vrais projets, liens GitHub ou démonstrations en ligne.
+        </p>
+        <div class="projects">
+        
+          <article class="project">
+            <small>Projet 01</small>
+            <h3>Etude de l’évolution de la température dans une ville</h3>
+            <p>Projet d'étude de Atelier de recherche de dynamique en groupe de quatre étudiants.</p>
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">Jupiter Notebook</span>
+            </div>
+            <a class="btn btn-secondary" href="https://github.com/ErmalZeqo/environnements">Voir le projet</a>
+          </article>
+
+          <article class="project">
+            <small>Projet 02</small>
+            <h3>Gestion d’une bibliothèque</h3>
+            <p>Projet pédagogique en programmation sur la gestion d’une bibliothèque, considérée comme un ensemble de livres</p>
+            <div class="chips">
+              <span class="chip">C</span>
+              <span class="chip">structures de données</span>
+            </div>
+            <a class="btn btn-secondary" href="https://github.com/ErmalZeqo/Gestion-d-une-biblioth-que">Voir le projet</a>
+          </article>
+
+          <article class="project">
+            <small>Projet 03</small>
+            <h3>Simulation Ecosystème Prédateurs/Proies</h3>
+            <p>Projet en cadre de C avance</p>
+            <div class="chips">
+              <span class="chip">C</span>
+            </div>
+            <a class="btn btn-secondary" href="https://github.com/ErmalZeqo/Ecosyst-me_Pr-dateurs-Proies">Voir le projet</a>
+          </article>
+
+          <article class="project">
+            <small>Projet 04</small>
+            <h3>Automates</h3>
+            <p style="text-align: justify;">Ce projet porte sur la programmation d’automates finis en Python. L'objectif est de mettre en pratique plusieurs algorithmes étudiés en cours et en TD, en s’appuyant sur des structures de données déjà fournies pour manipuler les états, les transitions et les automates. À travers ce travail, nous avons appris à construire, tester et compléter différentes fonctions liées aux automates, notamment leur manipulation, leur déterminisation et les opérations sur les langages qu’ils reconnaissent.</p>
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">Jupiter Notebook</span>
+            </div>
+            <a class="btn btn-secondary" href="https://github.com/ErmalZeqo/Projet-Automates">Voir le projet</a>
+          </article>
+          
+          <article class="project">
+            <small>Projet 05</small>
+            <h3>Paint Wars</h3>
+            <p>Premier projet en binome effectue en matière IA-Jeux.</p>
+            <div class="chips">
+              <span class="chip">Python</span>
+            </div>
+            <a class="btn btn-secondary" href="https://github.com/ErmalZeqo/IA-Jeux">Voir le projet</a>
+          </article>
+          <article class="project">
+            <small>Projet 06</small>
+            <h3>Réalisation d'un simulateur de CPU</h3>
+            <p style="text-align: justify;">Dans le cadre de ce projet, nous avons développé un simulateur de CPU permettant de modéliser de manière simplifiée l’exécution d’instructions par un processeur. Cette réalisation s’appuie sur plusieurs composants essentiels, notamment les registres, les segments mémoire, la pile, ainsi qu’un parser capable d’interpréter un pseudo-assembleur. </p>
+            <div class="chips">
+              <span class="chip">C</span>
+            </div>
+            <a class="btn btn-secondary" href="https://github.com/ErmalZeqo/ErmalZeqo-Realisation-d-un-simulateur-de-CPU">Voir le projet</a>
+          </article>
+        </div>
+      </div>
+    </section>
+    
+    <section id="cv">
+  <div class="container">
+    <h2 class="section-title">Curriculum Vitae</h2>
+    <p class="section-text">
+      Cliquez sur le bouton pour l’ouvrir en taille complète.
+    </p>
+
+    <div class="cv-box">
+      <div class="cv-preview">
+        <img src="im/aa3efd22-1.png" alt="Aperçu de mon CV" class="cv-image">
+      </div>
+
+      <div class="cv-actions">
+        <a href="CV_Mon_Masteur_Ermal_ZEQO-1.pdf" target="_blank" class="btn btn-primary">
+          Ouvrir le CV en grand
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+    
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-text">
+          
+        </p>
+        <div class="contact-box">
+          <div class="card">
+            <h3>Mes liens</h3>
+            <ul class="contact-list" style="margin-top: 1rem;">
+              <li>Email : <a href="mailto:ermalizeqo@gmail.com.com">ermalizeqo@gmail.com</a></li>
+              <li><a href="https://github.com/ErmalZeqo" target="_blank">github.com/tonpseudo</a></li>
+              <li><a href="https://www.linkedin.com/in/ermal-zeqo-61278b299/" target="_blank">MyLinkedin</a></li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Message</h3>
+            <p style="margin-top: 1rem; color: var(--muted);">
+              Merci d'avoir visité mon portfolio. Je suis toujours ouvert aux nouvelles idées,
+              collaborations et opportunités.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Z.E. — Tous droits réservés.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
